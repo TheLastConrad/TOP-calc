@@ -42,7 +42,28 @@ function operate(x,sign, y){
 
 let input ="";
 
+// I don't know RegEx well enough to make this work for now. Maybe I'll circle back to fix it. Trying something else instead ...
 let symbolRegEx = "/\D+/"
+
+/// Trying out an Array element match
+
+let symbolArray = ["/", "*", "-", "+", "Enter", "C"]
+
+function symbolFunc(incomingValue){
+  for (let key in symbolArray){
+    // console.log (`Testing Key: ${key}`)
+    if (incomingValue == symbolArray[key]){
+      console.log('Thats a known symbol!')
+      if (incomingValue=="Enter"){
+        console.log('Thats and Enter. Do an Enter');
+      } else if (incomingValue=="C"){
+        
+      }
+    }
+  } 
+  
+  console.log('Thats most likely a number')
+}
 
 let x = "";
 

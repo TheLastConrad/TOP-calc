@@ -1,0 +1,58 @@
+header {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  width:100vw;
+  height: auto;
+}
+
+#title {
+  background-color: black;
+  color:white;
+  height:100%;
+}
+
+#subtitle {
+  background-color: white;
+  border-color: darkgoldenrod;
+  border-width: 1px;
+  color: darkgoldenrod;
+  height:100%;
+}
+
+#calc-screen {
+  display:flex;
+  flex-direction:column;
+  width:100vw;
+  border-color: lightgray;
+  border-width: 5px;
+  height: 100px;
+  justify-content: right;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#current-equation {
+  display:flex;
+  font-size:small;
+  font-style:italic;
+  justify-content: right;
+  background-color:beige;
+}
+
+#current-input {
+  font-size:larger;
+  font-weight:bold;
+}
+/* .button {
+  height:50px;
+  width:50px;
+
+} */
+/* #r1-b3, #r3-b3 {
+
+  height: 100px;
+} */
+
+/* #r4-b0 {
+  width: 100px;
+} */
